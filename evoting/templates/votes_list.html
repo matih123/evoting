@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>evoting</title>
+{% endblock title %}
+
+{% block head %}
+{% endblock head %}
+
+{% block main %}
+<div class="container bg-light border-rounded p-3 mt-3">
+    <div class="row pl-5">
+        <div>
+        <span class="mb-3"><b>Lista głosów</b></span><br /><br />
+        {% for h in hashes %}
+            <span>{{ h }}</span><br />
+        {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock main %}

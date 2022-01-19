@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>evoting</title>
+{% endblock title %}
+
+{% block head %}
+{% endblock head %}
+
+{% block main %}
+<div class="container bg-light border-rounded p-3 mt-3">
+    <div class="row pl-5" style="position: relative;">
+        <span class="mb-3"><b>Wyniki</b></span><br /><br />
+        <a target="_blank" href="{{ url_for('static', filename='results.py') }}" class="btn btn-primary" style="top: 0; right: 20px; position: absolute;">Sprawdź wyniki</a>
+        {% for i in range(0, len_candidates) %}
+        <div class="col-12 mt-2">
+            <span>{{ candidates[i] }}: {{ results[i] }}</span>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock main %}

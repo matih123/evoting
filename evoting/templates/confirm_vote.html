@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>evoting</title>
+{% endblock title %}
+
+{% block head %}
+{% endblock head %}
+
+{% block main %}
+<div class="container bg-light border-rounded p-3 mt-3">
+    <div class="row pl-5">
+            <div>
+            <span class="mb-3"><b>Głos został oddany prawidłowo.</b></span><br />
+            <span>Potwierdzenie głosu - {{ hashed }}</span><br /><br />
+
+            <a href="{{ url_for('votes_list') }}" class="btn btn-primary">Lista głosów</a>
+            <a href="{{ url_for('results') }}" class="btn btn-secondary">Wyniki</a>
+            </div>
+    </div>
+</div>
+
+{% endblock main %}
