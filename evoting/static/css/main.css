@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+.font-varela { font-family: 'Varela Round', sans-serif; }
+.font-teko { font-family: 'Teko', sans-serif; }
+
+.font-20 {font-size: 20px;}
+.font-30 {font-size: 30px;}
+
+body {
+    background-image: url('../img/background.png');
+    margin: 0 !important;
+    padding: 0 !important;
+ }
+
+ .border-rounded {
+     border-radius: 10px;
+ }
+ 
+ .line { 
+     border: 1px solid #ddd; 
+     width: 100%; 
+}
+
