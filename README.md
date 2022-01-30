@@ -2,4 +2,4 @@
 ![alt text](https://raw.githubusercontent.com/matih123/evoting/main/readme/evoting-opis-2.jpg)  
 ![alt text](https://raw.githubusercontent.com/matih123/evoting/main/readme/evoting-opis-3.jpg)  
 ![alt text](https://raw.githubusercontent.com/matih123/evoting/main/readme/evoting-opis-5.jpg)  
-![alt text](https://raw.githubusercontent.com/matih123/evoting/main/readme/obraz-converted.pdf)  
+![alt text](https://raw.githubusercontent.com/matih123/evoting/main/readme/evoting-opis-6.jpg)  
