@@ -7,7 +7,7 @@ def mysql_connection():
             host = '130.61.177.13',
             port = '3306',
             user = 'evoting',
-            password = 'TzC95k3Z6eg5SRGHgtcqOCP7',
+            password = '',
             database = 'evoting',
             connection_timeout=180
     )
