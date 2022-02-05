@@ -3,7 +3,7 @@ import flask_login
 from evoting.voting import *
 
 app = Flask(__name__, static_folder='static')
-app.config['SECRET_KEY'] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+app.config['SECRET_KEY'] = ""
 
 login_manager = flask_login.LoginManager(app)
 
