@@ -1,7 +1,7 @@
 from evoting import app, my_voting, voters
 from flask import render_template, redirect, url_for, flash, make_response, request
 from evoting.forms import LoginForm
-from evoting.scrypt import *
+from evoting.bcrypt import *
 from evoting.models import User
 from flask_login import login_user, current_user, logout_user, login_required
 from evoting.voting import *
